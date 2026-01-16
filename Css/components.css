@@ -102,3 +102,52 @@
   margin-top: 12px;
 }
 
+/* форма контактов ----------------------- */
+.form-contact {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-contact label {
+  font-weight: bold;
+  color: #cfcfcf;
+}
+
+.form-contact input,
+.form-contact textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2c2c3c;
+  color: #fff;
+}
+
+.form-contact input::placeholder,
+.form-contact textarea::placeholder {
+  color: #aaa;
+}
+
+.form-contact .btn {
+  margin-top: 12px;
+}
+
+/* инфо пользователя -------------------- */
+.user-info {
+  max-width: 400px;
+  margin: 0 auto 40px auto;
+  padding: 16px;
+  background-color: #2c2c3c;
+  border-radius: 12px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.user-info .btn {
+  align-self: flex-start;
+  margin-top: 8px;
+}
